@@ -1,0 +1,49 @@
+.container{
+    height: auto;
+    max-width:fit-content;
+    margin: auto;
+    -webkit-box-shadow: 2px 2px 30px -11px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 30px -11px rgba(0,0,0,0.75);
+box-shadow: 2px 2px 30px -11px rgba(0,0,0,0.75);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+color: white;
+padding: 10px;
+}
+
+.screen{
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    min-width: 350px;
+    width: auto;
+    padding: 10px;
+    background-color: rgb(244, 231, 231);
+    border-radius: 10px;
+    font-size: 250px;
+}
+
+.buttons{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:nth-child(3){
+    background-color: rgb(227, 71, 71);
+}

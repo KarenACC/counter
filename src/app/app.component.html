@@ -1,0 +1,17 @@
+
+<div class="container">
+  <h1>Contador</h1>
+  <div class="screen">
+  {{value}}
+    
+  </div>
+  <div class="buttons">
+    <button (click)="changeValueBy(+1)"> +</button>
+    <button (click)="changeValueBy(-1)">-</button>
+    <button (click)="reset()"><span class="material-symbols-outlined">
+      refresh
+      </span></button>
+  
+  </div>
+
+</div>
